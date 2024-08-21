@@ -1,0 +1,10 @@
+#root {
+  /*пашок*/
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+}
