@@ -1,0 +1,17 @@
+.card-container {
+    border-radius: 20px;
+    background: var(--light-green);
+    padding: 20px;
+}
+.header-section{
+    font-size: 50px;
+    font-weight: var(--bold);
+    color: var(--green);
+}
+.text-section{
+    font-size: 16px;
+    max-width: 177px;
+}
+.topic-grid{
+    grid-area: 1 / 1 / 2/ 3;
+}

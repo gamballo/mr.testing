@@ -1,6 +1,6 @@
 import "./Header.modules.css"
-import header_logo from "../assets/Header/header_logo.svg"
-import lupa from "../assets/Header/lupa.svg"
+import header_logo from "../../assets/Header/header_logo.svg"
+import lupa from "../../assets/Header/lupa.svg"
 
 
 export const Header = () => {

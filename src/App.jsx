@@ -1,4 +1,6 @@
-import {Header} from "./components/Header.jsx";
+import {Header} from "./components/Header/Header.jsx";
+import {Topic} from "./components/Topic/Topic.jsx";
+import  "./App.css"
 
 function App() {
 
@@ -6,6 +8,7 @@ function App() {
   return (
       <div className={"container"}>
       <Header/>
+      <Topic/>
       </div>
   )
 }

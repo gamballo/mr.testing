@@ -1,28 +1,33 @@
 
 :root {
-  --bodyColor: #ffffff;
-  --ligthGray: rgba(23, 23, 23, 0.3);
-  --gray: rgba(23, 23, 23, 0.4);
-  --lightGreen:  rgba(175, 215, 77, 1);
-  --green: rgba(153, 180, 0, 1);
-  --grayGreen: rgba(22, 50, 38, 1);
-  --Inter-font-family: "Inter", sans-serif;
-  --manrope-font-family: "Manrope", sans-serif;
-  --semi-bold: 600;
+  --body-color:#FFFFFF;
+  --light-gray:rgba(23, 23, 23, 0.3);
+  --gray:rgba(23, 23, 23, 0.4);
+  --light-green:#DEF7B1;
+  --green:#99B400;
+  --dark-green:#163226;
+  --inter-font-family:"Inter", sans-serif;
+  --manrope-font-family:"Manrope", sans-serif;
+  --semi-bold:600;
   --regular:400;
   --medium:500;
   --bold:700;
   --black:800;
 }
 body {
-  background: var(--bodyColor);
+  background: var(--body-color);
   font-family: var(--manrope-font-family);
   font-weight: var(--regular);
   font-style: normal ;
-  color: var(--grayGreen);
+  color: var(--dark-green);
   margin: 0;
 }
 a {
   text-decoration: none;
-  color: var(--grayGreen);
+  color: var(--dark-green);
+}
+
+h1,h2,h3,h4,h5,p{
+  margin: 0;
+  padding: 0;
 }

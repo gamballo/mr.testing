@@ -1,0 +1,37 @@
+.topic {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+.main-content{
+    grid-area: 1 / 1 / 2 / 7;
+}
+.img-content{
+    grid-area: 1 / 7 / 2 / 13;
+}
+.logo-content{
+    padding-top: 90px;
+    grid-area: 1/ 1 / 2 / 9;
+}
+.section-header{
+    font-size: 32px;
+    font-weight: var(--medium);
+    margin-top: 20px;
+}
+.section-text{
+    font-size: 24px;
+    font-weight: var(--regular);
+    margin-top: 5px;
+    margin-bottom: 27px;
+
+}
+.card-row{
+    margin-top: 27px;
+}
+.item-row {
+    display: flex;
+    margin-top: 95px;
+    gap: 20px;
+}
