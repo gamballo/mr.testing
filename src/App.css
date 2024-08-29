@@ -8,3 +8,9 @@ ul {
   margin: 0 auto;
   max-width: 1400px;
 }
+
+.section-header{
+  font-weight: var(--medium);
+  font-size: 32px;
+  line-height: 44px;
+}

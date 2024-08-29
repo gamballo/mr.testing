@@ -1,17 +1,22 @@
-.card-container {
+.card_container {
     border-radius: 20px;
     background: var(--light-green);
     padding: 20px;
 }
-.header-section{
+.header_section{
     font-size: 50px;
     font-weight: var(--bold);
     color: var(--green);
+    max-height: 36px;
+    margin-bottom: 10px;
+    top: -15px;
+    display: block;
+    position: relative;
 }
-.text-section{
+.text_section{
     font-size: 16px;
     max-width: 177px;
 }
-.topic-grid{
+.topic_grid{
     grid-area: 1 / 1 / 2/ 3;
 }

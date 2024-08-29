@@ -15,6 +15,9 @@
     color: var(--light-green);
 }
 .default {
+    font-size: 16px;
     padding: 10px 20px;
     background: var(--green);
+    font-weight: var(--regular);
+    font-family: var(--manrope-font-family);
 }

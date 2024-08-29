@@ -5,33 +5,45 @@
     grid-column-gap: 20px;
     grid-row-gap: 0px;
 }
-.main-content{
+.main_content{
     grid-area: 1 / 1 / 2 / 7;
 }
-.img-content{
+.img_content{
+    margin-top:6px;
     grid-area: 1 / 7 / 2 / 13;
 }
-.logo-content{
+.logo_content{
     padding-top: 90px;
     grid-area: 1/ 1 / 2 / 9;
 }
-.section-header{
+.section_header{
     font-size: 32px;
     font-weight: var(--medium);
     margin-top: 20px;
+    position: relative;
+    top: -5px;
 }
-.section-text{
+.section_text{
     font-size: 24px;
     font-weight: var(--regular);
     margin-top: 5px;
     margin-bottom: 27px;
+    position: relative;
+    top: -7px;
 
 }
-.card-row{
+.card_row{
     margin-top: 27px;
 }
-.item-row {
+.item_row {
     display: flex;
     margin-top: 95px;
     gap: 20px;
+    position: relative;
+    top: -8px;
+
+}
+.sub_text{
+    position: relative;
+    top: -11px;
 }

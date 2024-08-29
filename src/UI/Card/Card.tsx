@@ -1,4 +1,5 @@
-import "./Card.modules.css"
+// @ts-ignore
+import Z from './Card.module.css';
 
 type CardPropsType = {
     primaryHeader: string,
@@ -7,11 +8,11 @@ type CardPropsType = {
 
 export const Card = (props: CardPropsType) => {
     return (
-        <div className={`card-container`} >
-            <div className="header-section">
+        <div className={Z.card_container} >
+            <div className={Z.header_section}>
                 {props.primaryHeader}
             </div>
-            <div className="text-section">
+            <div className={Z.text_section}>
                 {props.text}
             </div>
         </div>

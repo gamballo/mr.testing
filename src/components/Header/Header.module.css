@@ -1,0 +1,35 @@
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.header_navigation{
+    display: flex;
+    align-items: center;
+}
+.header_menu{
+    position: relative;
+    top: -12px;
+    left: 17px;
+}
+.header_menu  ul {
+    display: flex;
+    gap: 40px;
+}
+.header_menu  li{
+    margin-right: 10px;
+}
+.header_contacts{
+    position: relative;
+    top: -12px;
+    left: -21px;
+    display: flex;
+}
+.header_lupa {
+    margin-right: 40px;
+}
+.header_logo {
+    position: relative;
+    top: -11px;
+}
