@@ -1,0 +1,31 @@
+.about{
+    margin-top: 150px;
+}
+.card_section{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+.card_section1{
+    grid-area: 1 / 1 / 2 / 4;
+}
+.card_section2{
+    grid-area: 1 / 4 / 2 / 7;
+}
+.card_section3{
+    grid-area: 1 / 7 / 2 / 10;
+}
+.card_section4{
+    grid-area: 2 / 1 / 3 / 4;
+}
+.card_section5{
+    grid-area: 2 / 4 / 3 / 7;
+}
+.card_section6{
+    grid-area: 2 / 7 / 3 / 10;
+}
+.img_section{
+    grid-area: 1 / 10 / 3 / 13;
+}

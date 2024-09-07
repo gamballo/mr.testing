@@ -1,0 +1,17 @@
+.primary_card {
+    padding: 20px 30px;
+    background: var(--light-green);
+    border-radius: 20px;
+}
+
+.header_main {
+    font-weight: var(--medium);
+    font-size: 32px;
+}
+.header_secondary{
+    font-size: 24px;
+    line-height: 110%;
+}
+.card_text{
+    font-size: 18px;
+}
